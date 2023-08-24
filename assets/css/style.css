@@ -9,16 +9,43 @@ a{
     padding: 15px 20px ;
     margin: 5px;
 }
-
-h1{
-    color: red;
-    background-color: yellow;
-}
-
+/* contoh selector atribut */
 input[type=submit] {
     color:aqua;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     border-radius: 10pt;
+}
+
+/* contoh selector class  */
+.sosmed{
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 300px;
+    padding-top: 20px;
+}
+
+/* contoh selector class  */
+
+.hobi{
+    color: blue;
+}
+
+/* contoh selector id */
+#title{
+    color: red;
+    background-color: yellow;
+}
+
+/* contoh pseudo element */
+#title::first-letter{
+    color: black;
+    font-size: 40px;
+}
+
+/* contoh pseudo class */
+.formulir a:hover{
+    color: aliceblue;
+    font-size: larger;
 }
